@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap');
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Manrope', sans-serif;
+    background-color: hsl(210, 46%, 95%);
+    font-size: 13px;
+}
+
+.article{
+    width:39%;
+    margin: 0 auto;
+    background-color: white;
+    min-width: 300px;
+    margin-top: 5rem;
+    overflow: hidden;
+    border-radius: 8px;
+
+}
+
+@media screen and (min-width: 700px){
+    .article{
+        width: 39%;
+        display: flex;
+        margin-top: 15rem;
+        max-width: 1100px;
+
+    }
+}
+.image img{
+    width: 100%;
+}
+@media screen and (min-width: 700px){
+    .image img{
+        width: 100%;
+        height: 100%;
+    }
+}
+h1{
+    font-weight: 700;
+    font-size: 14px;
+    padding: 1.5rem 1rem 1rem 1.3rem;
+    color: hsl(217, 19%, 35%);
+}
+@media screen and (min-width: 700px){
+    h1{
+    padding: 2rem 3rem 0.5rem 1.8rem;   
+    font-size: 15px 
+    
+    }
+}
+.text{
+    font-size: 13px;
+    padding: 0 1rem 1rem 1.3rem;
+    color:hsl(212, 23%, 69%);
+}
+@media screen and (min-width: 700px){
+    .text{
+    padding: 0rem 1rem 1rem 1.8rem;    
+    font-size: 13px;
+    font-weight:400 ;
+    }
+}
+.michelle{
+    display:flex;
+    position: relative;
+    margin-top: 1rem;
+    transition: ease-in-out 2s;
+    padding-bottom: 1rem;
+}
+.michelle img{
+    width:40px;
+    height: 40px;
+    border-radius: 50%;
+    margin:0.5rem 0.6rem 0 1.3rem ;
+}
+.date{
+    margin: 0.5rem 0;
+}
+.date p:nth-of-type(1){
+    color: hsl(217, 19%, 35%);
+    font-weight: 700;
+    padding-bottom: 0.3rem;
+}
+.date p:nth-of-type(2){
+    color:hsl(212, 23%, 69%);
+    font-weight: 400;
+}
+.icon-share{
+   background-image: url(./images/icon-share.svg);
+   width: 33px;
+   height: 33px;
+   background-position: center;
+   background-size: 40%;
+   background-repeat: no-repeat;
+   border-radius:50%;
+    background-color:hsl(210, 46%, 95%) ;
+    position: absolute;
+    left:80%;
+    top: 20%;
+}
+.social-media{
+    background-color: hsl(217, 19%, 35%);
+    display: flex;
+    padding:0.8rem 0rem 1rem 1.3rem ;
+    position: relative;
+    font-weight: 400;
+    margin-top: 1rem;
+    transition: ease-in-out 2s;
+
+}
+.logos{
+    margin-left: 0.8rem;
+}
+.logos img{
+    padding-right: 0.3rem;
+}
+.icon-share2{
+    background-image: url(./images/icon-share.svg);
+    width: 30px;
+    height: 30px;
+    background-position: center;
+    background-size: 45%;
+    background-repeat: no-repeat;
+    border-radius:50%;
+     background-color:hsl(212, 23%, 69%);
+     position: absolute;
+     left:80%;
+     top: 20%;
+ }
+ .share{
+    color: hsl(212, 23%, 69%);
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    font-size: 13px;
+    
+ }
+ .hidden{
+    display: none;
+ }
+
+ 
